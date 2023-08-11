@@ -2,10 +2,8 @@ import os
 import nltk
 import yaml
 from pprint import pprint
-from dankware import cls, clr, clr_banner, align, white, magenta, chdir
+from dankware import cls, clr, clr_banner, align, white, magenta
 from flask import Flask, request, render_template
-
-#exec(chdir("script"))
 
 class Splitter(object):
 
